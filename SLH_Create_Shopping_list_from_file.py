@@ -1,0 +1,6 @@
+
+import SLH_create_shopping_BOM
+from Example_consume_list import example_shopping_list
+shopping_list = example_shopping_list
+print(SLH_create_shopping_BOM.get_consum_string(shopping_list))
+print(SLH_create_shopping_BOM.get_ingredient_string(shopping_list))
